@@ -29,4 +29,4 @@ These questions are classified according to its type.
 - [Basic Method in Computer Science](#basic-method-in-computer-science)
 
 
-#Data Structure
+## Data Structure
