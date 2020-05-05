@@ -5,6 +5,11 @@ In order to better grasp the algorithm, data structure. I want to record and col
 
 These questions are classified according to its type.
 
+There is my study plan so it's started with basic concepts.
+
+No Pain No Gain.
+
+
 
 
 ## Table of Contents
