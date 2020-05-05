@@ -7,7 +7,7 @@ These questions are classified according to its type.
 
 There is my study plan so it's started with basic concepts.
 
-No Pain No Gain.
+No Pain No Gain & Done is better than perfect!
 
 ![happy forever!](
 https://github.com/machine411/LeetCode_JAVA/blob/master/images/B6A0EC4D-42CB-460F-A0D3-23E8F6D4B85A.jpeg)
