@@ -19,6 +19,8 @@ https://github.com/machine411/LeetCode_JAVA/blob/master/images/B6A0EC4D-42CB-460
 - [Data Structure](#data-structure)
 
     - [LinkList](#linklist)
+        
+        - [the deletion of linklist](#the-deletion-of-linklist)
   
     - [Stack](#stack)
   
@@ -37,3 +39,5 @@ https://github.com/machine411/LeetCode_JAVA/blob/master/images/B6A0EC4D-42CB-460
 
 
 ## Data Structure
+
+### LinkList
