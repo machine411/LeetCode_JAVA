@@ -15,6 +15,9 @@ https://github.com/machine411/LeetCode_JAVA/blob/master/images/B6A0EC4D-42CB-460
 
 
 ## Table of Contents
+- [Basic Concepts](#basic-concepts)
+  
+  -[Big-O](#big-o)
 
 - [Data Structure](#data-structure)
 
@@ -36,8 +39,9 @@ https://github.com/machine411/LeetCode_JAVA/blob/master/images/B6A0EC4D-42CB-460
   
 
 - [Basic Method in Computer Science](#basic-method-in-computer-science)
-
-
+## Basic Concept
+ - [Big-O](https://github.com/machine411/LeetCode_JAVA/new/master)
+    
 ## Data Structure
 
 ### LinkList
