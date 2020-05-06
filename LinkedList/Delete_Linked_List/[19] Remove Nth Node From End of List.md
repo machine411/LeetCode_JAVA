@@ -17,6 +17,9 @@ Given n will always be valid.
 We use the concept of two pointers at here.
 Two pointers means that when we traverse linked list ,not just by one pointers but two pointers in the same or opposite way.
 we could get the outcome we wanted by control the direcion or/and step speed
+two pointers the first and the second.we let the first node move n step the n let second node start to move with same step.
+when the first node arrive the null,the second node's next node is the node we should deleted.
+
 ![leetcode_picture](https://github.com/machine411/LeetCode_JAVA/blob/master/images/linkedlist/19_Remove_nth_node_from_end_of_listB.png)
 
  - this picture from leetcode
