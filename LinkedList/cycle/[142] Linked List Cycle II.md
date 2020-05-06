@@ -24,8 +24,91 @@ Explanation: There is a cycle in the linked list, where tail connects to the fir
 [1,2,1,2,1,2,1,2,....]
 
 Example 3:
-
+```
 Input: head = [1], pos = -1
 Output: no cycle
 Explanation: There is no cycle in the linked list.
+```
+
 [1]
+
+
+## Solution:
+There still 2 method to solve it.
+
+As [the linked list cycle](https://github.com/machine411/LeetCode_JAVA/blob/master/LinkedList/cycle/%5B141%5D%20Linked%20List%20Cycle.md)
+### Method 1 :Hash Set
+
+The HashSet Method is similar as that one:
+we just need to return the node when it's cycle,and else return null instead of return true and false;
+
+```
+
+/**
+ * Definition for singly-linked list.
+ * class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode(int x) {
+ *         val = x;
+ *         next = null;
+ *     }
+ * }
+ */
+public class Solution {
+    public ListNode detectCycle(ListNode head) {
+      HashSet<ListNode> HeadSeen = new HashSet();
+        while(head!=null){
+            if(HeadSeen.contains(head))
+            {
+                return head;
+            }else{
+                HeadSeen.add(head);
+            }
+            head = head.next;
+        }
+        return null;
+    }
+}
+```
+Time Complexity: O(N)
+Space Complexity:O(N)
+
+### Two Pointers
+similar way as [the linked list cycle](https://github.com/machine411/LeetCode_JAVA/blob/master/LinkedList/cycle/%5B141%5D%20Linked%20List%20Cycle.md),but define a new node speed as slow to find the first space to loop.
+```
+/**
+ * Definition for singly-linked list.
+ * class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode(int x) {
+ *         val = x;
+ *         next = null;
+ *     }
+ * }
+ */
+public class Solution {
+    public ListNode detectCycle(ListNode head) {
+        ListNode slow =head;
+        ListNode fast =head;
+  
+        while(fast!=null && fast.next !=null){
+        slow = slow.next;
+        fast = fast.next.next;
+            
+        if(slow == fast)
+        {
+         ListNode first = head;
+          while(first != slow ) {
+              slow = slow.next;
+              first = first.next;
+          }
+            return slow;
+        }
+        }
+        return null; 
+    }
+}
+
+```
