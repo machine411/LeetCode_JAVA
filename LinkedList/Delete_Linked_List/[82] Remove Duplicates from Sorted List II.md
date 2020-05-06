@@ -18,6 +18,8 @@ There are also two points method to solve this problem.
 similar question as the remove duplicates form sorted list but there need to delete all duplicates.
 we need to define a new node and point the original linked list.
 we define a first node and current node.while the first node point the new node.current node point the next one,if same value ,continue point the next one until meet the new value. the first node will point the next different value.if current node's first value is not equal the first node. the first node point the second value.
+
+![try](https://github.com/machine411/LeetCode_JAVA/blob/master/images/linkedlist/leetcode-12.jpg)
 ```
 /**
  * Definition for singly-linked list.
