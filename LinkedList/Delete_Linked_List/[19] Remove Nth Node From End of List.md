@@ -10,3 +10,32 @@ After removing the second node from the end, the linked list becomes 1->2->3->5.
 Note:
 
 Given n will always be valid.
+
+
+## Solution:
+
+We use the concept of two pointers at here.
+Two pointers means that when we traverse linked list ,not just by one pointers but two pointers in the same or opposite way.
+we could get the outcome we wanted by control the direcion or/and step speed
+![leetcode_picture](https://github.com/machine411/LeetCode_JAVA/blob/master/images/linkedlist/19_Remove_nth_node_from_end_of_listB.png)
+
+ - this picture from leetcode
+
+```public ListNode removeNthFromEnd(ListNode head, int n) {
+    ListNode dummy = new ListNode(0);
+    dummy.next = head;
+    ListNode first = dummy;
+    ListNode second = dummy;
+    // Advances first pointer so that the gap between first and second is n nodes apart
+    for (int i = 1; i <= n + 1; i++) {
+        first = first.next;
+    }
+    // Move first to the end, maintaining the gap
+    while (first != null) {
+        first = first.next;
+        second = second.next;
+    }
+    second.next = second.next.next;
+    return dummy.next;
+}
+```
