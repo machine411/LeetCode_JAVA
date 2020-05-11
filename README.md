@@ -67,13 +67,13 @@ https://github.com/machine411/LeetCode_JAVA/blob/master/images/B6A0EC4D-42CB-460
    
    - [61] Rotate List
    
-####[Cycle](https://github.com/machine411/LeetCode_JAVA/tree/master/LinkedList/cycle)
+#### [Cycle](https://github.com/machine411/LeetCode_JAVA/tree/master/LinkedList/cycle)
 
   - [141] Linked List Cycle
   
   -[142] Linked List Cycle II
   
-####[Reverse](https://github.com/machine411/LeetCode_JAVA/tree/master/LinkedList/reverse_linked_list)
+#### [Reverse](https://github.com/machine411/LeetCode_JAVA/tree/master/LinkedList/reverse_linked_list)
   - [206] Reverse Linked List
   
   - [24] Swap Nodes in Pairs
