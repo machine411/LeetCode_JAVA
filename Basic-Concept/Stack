@@ -1,0 +1,10 @@
+# What is Stack in java?
+A java stack is part of the computer's memory where temporary variables, which are created by all functions you do ,are stored.It is used to execute a thread and may have certain short-lived values sa well as references to LIFO.
+last in first out.
+
+
+
+
+
+## Reference
+[Stack vs. Heap: Understanding Java Memory Allocatio](nhttps://dzone.com/articles/stack-vs-heap-understanding-java-memory-allocation)
